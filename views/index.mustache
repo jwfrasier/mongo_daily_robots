@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/master.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Hiya</h1>
+    {{#users}}
+    <div class="profile">
+      <a href="/users/{{id}}"> <img src="{{avatar}}" alt=""> </a>
+      <div class="">{{name}}</div>
+      <div class="">{{email}}</div>
+      <div class="">{{skills}}</div>
+    </div>
+    {{/users}}
+
+  </body>
+</html>
